@@ -1,0 +1,93 @@
+body
+{
+    margin: 0px;
+    background-color: #43291F;
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameName
+{
+    color: #87C38F;
+    margin-top: 5vmin;
+    margin-bottom:5vmin;
+}
+
+#content-box
+{
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#main-box
+{
+    width: 47vmin;
+    height: 47vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#reset
+{
+    background-color: #DA2C38;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 4vmin;
+    width: 8vmin;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.inner-box
+{
+    background-color: #F4F0BB;
+    border-radius: 15%;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#winningHeading
+{
+    font-size: 15vmin;
+    color: #F4F0BB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 35vmin;
+}
+
+#replay
+{
+    background-color: #DA2C38;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 5vmin !important;
+    width: 8vmin;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 40vmin;
+    margin-top: 5vmin;
+}
+
+.hide
+{
+    display: none;
+}
