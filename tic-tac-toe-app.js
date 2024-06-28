@@ -1,5 +1,6 @@
 // all main variables Declaration
 let body = document.querySelector('body')
+let content = document.querySelector('#content-box')
 let boxes = document.querySelectorAll('.inner-box')
 let reset = document.querySelector('#reset')
 let replay = document.querySelector('#replay')
@@ -88,8 +89,8 @@ boxes.forEach( (box) =>
             checkWinner();
 
             if(winner)
-                showWinner()
-            
+                    showWinner()
+     
             if ( count === 9 && winner === 0)
                 {
                     winningHeading.innerText = 'Draw!';
